@@ -4,7 +4,6 @@ package com.jdc.clinicworkshop.rest;
 import com.jdc.clinicworkshop.dto.CreateAppointmetPatientDTO;
 import com.jdc.clinicworkshop.model.Appointment;
 import com.jdc.clinicworkshop.model.AppointmentPatient;
-
 import com.jdc.clinicworkshop.model.Patient;
 import com.jdc.clinicworkshop.repository.RepositoryAppointment;
 import com.jdc.clinicworkshop.repository.RepositoryAppointmentPatient;
@@ -14,9 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Map;
 
